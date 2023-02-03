@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: 'Pastor-of-Muppets';
+    src: url(../fonts/Metallica-Font/Pastor-of-Muppets.woff2) format('woff2');
+}
+
+
+body{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h1,
+h2,
+span{
+    font-size: 90px;
+    font-family: 'Pastor-of-Muppets';
+    font-weight: 500;
+}
+
+h2{
+    font-size: 60px;
+}
+
+a{
+     text-decoration: underline;
+}
+
+span{
+    font-size: 40px;
+}
+
+.header__logo img{
+    width: 200px;
+}
+
+.main__text{
+    color: yellowgreen;
+    line-height: 50px;
+}
+
+.text__paragrapf{
+    color: black;
+    line-height: 1.5;
+}
+
+.text__paragrapf2{
+    word-spacing: 20px;
+    color: rgba(60, 37, 210, 0.5);
+}
+
+.history__text{
+    font-family: 'Pacifico', cursive;
+}
+
+.info__image{
+    text-align: center;
+}
+
+.info__list{
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.history__text{
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgb(115, 62, 62);
+}
+
+.text_upper{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.text_capi{
+    text-indent: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.text_lower{
+    
+	letter-spacing: 7px;
+    text-transform: lowercase;
+}
